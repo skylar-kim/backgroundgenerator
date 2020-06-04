@@ -1,0 +1,24 @@
+{
+  "name": "backgroundgenerator",
+  "version": "1.0.0",
+  "description": "Link to website: (https://skylar-kim.github.io/backgroundgenerator/)  Zero to Mastery Udemy Course Lecture 135",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sudo browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylar-kim/backgroundgenerator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skylar-kim/backgroundgenerator/issues"
+  },
+  "homepage": "https://github.com/skylar-kim/backgroundgenerator#readme",
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "lodash": "^4.17.15"
+  }
+}
